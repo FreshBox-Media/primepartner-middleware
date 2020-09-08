@@ -1,1 +1,1 @@
-# primepartner-middleware
+# prime-partner-middeware-service

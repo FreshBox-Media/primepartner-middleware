@@ -1,0 +1,12 @@
+{
+  "env": "production",
+  "port": 2212,
+  "domain_name": "Prime Partner",
+
+  "credentials": {
+    "user": "DRL_API",
+    "password": "3JA2ASJx^7"
+  },
+
+  "baseurl": "https://drlprimepartner.accentivrewards.in/api/lisawebapi.asmx"
+}
