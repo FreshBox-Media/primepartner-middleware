@@ -1,6 +1,6 @@
 const soapRequest = require("easy-soap-request");
 const convert = require("xml-js");
-const config = require("config");
+// const config = require("config");
 
 const {
   memberLoginXML,
@@ -13,7 +13,7 @@ const {
   orderDeliveryByOrderReferenceXML,
 } = require("../xml/xml");
 
-const url = config.get("baseurl");
+const url = 'https://drlprimepartner.accentivrewards.in/api/lisawebapi.asmx';
 
 const options = {
   ignoreComment: true,

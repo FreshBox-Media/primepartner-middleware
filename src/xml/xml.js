@@ -1,9 +1,9 @@
-const config = require("config");
-const user = config.get("credentials");
+// const config = require("config");
+// const user = config.get("credentials");
 
 const CRED = {
-  user: user.user,
-  password: user.password,
+  "user": "DRL_API",
+  "password": "3JA2ASJx^7"
 };
 
 const memberLoginXML = (memberLoginID) => {
