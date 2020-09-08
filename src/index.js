@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/", indexRoute);
 app.use(helmet());
 
-const PORT = 2212;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log("server running on port: " + PORT);
   // console.log(`server running in  ${config.get("env")} mode`);
